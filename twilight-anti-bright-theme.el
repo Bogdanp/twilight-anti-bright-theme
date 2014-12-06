@@ -98,7 +98,7 @@
    ;; Basics
    `(default ((t (:background ,background :foreground ,foreground))))
    `(cursor ((t (:background ,cursor))))
-   `(region ((t (:background ,selection))))
+   `(region ((t (:foreground ,foreground :background ,selection))))
    `(highlight ((t (:foreground ,blue-3 :background ,blue-3bg))))
    `(hl-line ((t (:background ,hl-line))))
    `(minibuffer-prompt ((t (:foreground ,orange-1 :background ,orange-1bg))))
