@@ -183,6 +183,9 @@
    `(org-hide ((t (:foreground ,gray-2 :background ,gray-1bg))))
    `(org-link ((t (:foreground ,blue-1 :background ,blue-1bg))))
    `(org-todo ((t (:foreground ,red-1 :background ,red-1bg))))
+
+   ;; Ido
+   `(ido-first-match ((t (:foreground ,green-1 :background ,green-1bg :bold nil))))
    )
 
   (custom-theme-set-variables
