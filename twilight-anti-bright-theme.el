@@ -89,8 +89,7 @@
       (blue-2 "#417598")   (blue-2bg "#1b333e")
       (blue-3 "#00959e")   (blue-3bg "#132228")
       (blue-4 "#365e7a")   (blue-4bg "#172028")
-      (purple-1 "#a878b5") (purple-1bg "#25222f")
-      )
+      (purple-1 "#a878b5") (purple-1bg "#25222f"))
 
   (custom-theme-set-faces
    'twilight-anti-bright
@@ -185,8 +184,7 @@
    `(org-todo ((t (:foreground ,red-1 :background ,red-1bg))))
 
    ;; Ido
-   `(ido-first-match ((t (:foreground ,green-1 :background ,green-1bg :bold nil))))
-   )
+   `(ido-first-match ((t (:foreground ,green-1 :background ,green-1bg :bold nil)))))
 
   (custom-theme-set-variables
    'twilight-anti-bright
@@ -200,9 +198,7 @@
      [,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
    `(ansi-term-color-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
-     [unspecified ,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
-   )
-  )
+     [unspecified ,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])))
 
 ;;;###autoload
 (when load-file-name
@@ -211,4 +207,4 @@
 
 (provide-theme 'twilight-anti-bright)
 
-;;; twilight-anti-bright-theme.el ends here
+;;; twilight-anti-bright-theme.el ends here.
