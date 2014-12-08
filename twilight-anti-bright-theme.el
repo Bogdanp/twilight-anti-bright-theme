@@ -126,6 +126,9 @@
    `(mode-line-inactive ((t (:foreground ,blue-4 :background ,gray-4))))
    `(vertical-border ((t (:background ,background :foreground ,gray-5))))
 
+   ;; SHR
+   `(shr-link ((t (:foreground nil :background nil :underline t))))
+
    ;; Linum
    `(linum ((t (:foreground ,gray-7 :background ,gray-1bg))))
 
@@ -189,7 +192,7 @@
   (custom-theme-set-variables
    'twilight-anti-bright
 
-   ;; ;; Fill Column Indicator mode
+   ;; Fill Column Indicator mode
    `(fci-rule-color ,gray-6)
    `(fci-rule-character-color ,gray-6)
 
