@@ -116,6 +116,7 @@
    `(font-lock-preprocessor-face ((t (:foreground ,orange-1 :background ,orange-1bg))))
    `(font-lock-string-face ((t (:foreground ,green-1 :background ,green-1bg))))
    `(font-lock-type-face ((t (:foreground ,red-2 :background ,red-2bg :bold nil))))
+   `(font-lock-cvariable-face ((t (:foreground ,red-2 :background ,red-2bg :bold nil))))
    `(font-lock-variable-name-face ((t (:foreground ,blue-1 :background ,blue-1bg))))
    `(font-lock-warning-face ((t (:foreground ,red-2 :background ,red-2bg))))
 
