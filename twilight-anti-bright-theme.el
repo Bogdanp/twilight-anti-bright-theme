@@ -202,7 +202,8 @@
      [,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
    `(ansi-term-color-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
-     [unspecified ,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])))
+     ;; [unspecified ,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground]
+     [,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])))
 
 ;;;###autoload
 (when load-file-name
@@ -210,5 +211,4 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'twilight-anti-bright)
-
-;;; twilight-anti-bright-theme.el ends here.
+;;; twilight-anti-bright-theme.el ends here
