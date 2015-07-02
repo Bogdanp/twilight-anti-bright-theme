@@ -65,7 +65,7 @@
 
 (let ((background "#14191f")
       (foreground "#dcdddd")
-      (selection "#313c4d")
+      (selection "#313c4d") (selection-bright "#424d5e")
       (hl-line "#1b2129")
       (cursor "#b4b4b4")
       (comment "#716d73")
@@ -157,9 +157,23 @@
    `(flyspell-duplicate ((t (:underline ,red-2))))
 
    ;; magit
-   `(magit-diff-add ((t (:foreground ,green-1))))
-   `(magit-diff-del ((t (:foreground ,red-2))))
-   `(magit-item-highlight ((t (:background ,gray-1bg))))
+   ;; magit-blame
+   `(magit-blame-date ((t (:background ,orange-1bg))))
+   `(magit-blame-hash ((t (:background ,orange-1bg))))
+   `(magit-blame-heading ((t (:background ,orange-1bg))))
+   `(magit-blame-name ((t (:foreground ,orange-1 :background ,orange-1bg))))
+   `(magit-blame-summary ((t (:background ,orange-1bg))))
+
+   ;; magit-diff
+   `(magit-diff-hunk-heading ((t (:background ,selection))))
+   `(magit-diff-hunk-heading-highlight ((t (:background ,selection-bright))))
+   `(magit-diff-added ((t (:foreground ,green-1 :background ,gray-1bg))))
+   `(magit-diff-added-highlight ((t (:foreground ,green-1 :background ,background))))
+   `(magit-diff-removed ((t (:foreground ,red-2 :background ,gray-1bg))))
+   `(magit-diff-removed-highlight ((t (:foreground ,red-2 :background ,background))))
+   `(magit-diff-context ((t (:background ,gray-1bg))))
+   `(magit-diff-context-highlight ((t (:background ,gray-1bg))))
+   `(magit-section-highlight ((t (:background ,gray-1bg))))
 
    ;; highlight-indentation-mode
    `(highlight-indentation-face ((t (:background ,gray-1bg))))
