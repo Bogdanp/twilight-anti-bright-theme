@@ -164,6 +164,11 @@
    `(magit-blame-name ((t (:foreground ,orange-1 :background ,orange-1bg))))
    `(magit-blame-summary ((t (:background ,orange-1bg))))
 
+   ;; magit-branch
+   `(magit-branch-local ((t (:foreground ,blue-1))))
+   `(magit-branch-remote ((t (:foreground ,yellow-1))))
+   `(magit-tag ((t (:foreground ,red-1))))
+
    ;; magit-diff
    `(magit-diff-hunk-heading ((t (:background ,selection))))
    `(magit-diff-hunk-heading-highlight ((t (:background ,selection-bright))))
@@ -173,6 +178,7 @@
    `(magit-diff-removed-highlight ((t (:foreground ,red-2 :background ,background))))
    `(magit-diff-context ((t (:background ,gray-1bg))))
    `(magit-diff-context-highlight ((t (:background ,gray-1bg))))
+   `(magit-section-heading ((t (:foreground ,foreground :background ,gray-3bg))))
    `(magit-section-highlight ((t (:background ,gray-1bg))))
 
    ;; highlight-indentation-mode
