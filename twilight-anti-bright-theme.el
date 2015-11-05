@@ -151,6 +151,7 @@
 
    ;; search
    `(isearch ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
+   `(lazy-highlight ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
    `(evil-ex-search ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
    `(evil-ex-lazy-highlight ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
    `(evil-ex-substitute-matches ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
