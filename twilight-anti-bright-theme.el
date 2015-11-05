@@ -137,9 +137,20 @@
    `(show-paren-match ((t (:foreground ,orange-1 :background ,orange-1bg))))
    `(show-paren-mismatch ((t (:foreground ,red-2bg :background ,red-2))))
 
+   ;; company
+   `(company-preview-common ((t (:foreground ,red-1 :background ,red-1bg))))
+   `(company-tooltip ((t (:foreground ,orange-1 :background ,gray-6))))
+   `(company-tooltip-annotation ((t (:foreground ,red-1 :background ,gray-6))))
+   `(company-tooltip-common ((t (:foreground ,red-2 :background ,gray-6))))
+   `(company-tooltip-common-selection ((t (:foreground ,red-2 :background ,gray-5))))
+   `(company-tooltip-selection ((t (:foreground ,red-2 :background ,gray-5))))
+   `(company-scrollbar-bg ((t (:background ,gray-4))))
+   `(company-scrollbar-fg ((t (:background ,gray-3))))
+
    ;; ido
    `(ido-only-match ((t (:foreground ,green-1 :background ,green-1bg))))
    `(ido-subdir ((t (:foreground ,purple-1 :background ,purple-1bg))))
+   `(ido-first-match ((t (:foreground ,green-1 :background ,green-1bg :bold nil))))
 
    ;; whitespace-mode
    `(whitespace-empty ((t (:foreground ,yellow-1bg :background ,yellow-1))))
@@ -205,10 +216,7 @@
    `(org-done ((t (:foreground ,green-1 :background ,green-1bg))))
    `(org-hide ((t (:foreground ,gray-2 :background ,gray-1bg))))
    `(org-link ((t (:foreground ,blue-1 :background ,blue-1bg))))
-   `(org-todo ((t (:foreground ,red-1 :background ,red-1bg))))
-
-   ;; Ido
-   `(ido-first-match ((t (:foreground ,green-1 :background ,green-1bg :bold nil)))))
+   `(org-todo ((t (:foreground ,red-1 :background ,red-1bg)))))
 
   (custom-theme-set-variables
    'twilight-anti-bright
