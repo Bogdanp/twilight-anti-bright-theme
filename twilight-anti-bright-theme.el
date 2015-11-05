@@ -143,7 +143,9 @@
    `(company-tooltip-annotation ((t (:foreground ,red-1 :background ,gray-6))))
    `(company-tooltip-common ((t (:foreground ,red-2 :background ,gray-6))))
    `(company-tooltip-common-selection ((t (:foreground ,red-2 :background ,gray-5))))
+   `(company-tooltip-mouse ((t (:foreground ,red-2 :background ,gray-5))))
    `(company-tooltip-selection ((t (:foreground ,red-2 :background ,gray-5))))
+   `(company-tooltip-search ((t (:foreground ,yellow-1 :background ,gray-5))))
    `(company-scrollbar-bg ((t (:background ,gray-4))))
    `(company-scrollbar-fg ((t (:background ,gray-3))))
 
