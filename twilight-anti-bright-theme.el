@@ -147,6 +147,13 @@
    `(company-scrollbar-bg ((t (:background ,gray-4))))
    `(company-scrollbar-fg ((t (:background ,gray-3))))
 
+   ;; search
+   `(isearch ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
+   `(evil-ex-search ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
+   `(evil-ex-lazy-highlight ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
+   `(evil-ex-substitute-matches ((t (:foreground ,yellow-1 :background ,background :underline ,orange-1))))
+   `(evil-ex-substitute-replacement ((t (:foreground ,red-1 :background ,foreground :underline t))))
+
    ;; ido
    `(ido-only-match ((t (:foreground ,green-1 :background ,green-1bg))))
    `(ido-subdir ((t (:foreground ,purple-1 :background ,purple-1bg))))
