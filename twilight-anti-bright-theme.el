@@ -226,7 +226,11 @@
    `(org-done ((t (:foreground ,green-1 :background ,green-1bg))))
    `(org-hide ((t (:foreground ,gray-2 :background ,gray-1bg))))
    `(org-link ((t (:foreground ,blue-1 :background ,blue-1bg))))
-   `(org-todo ((t (:foreground ,red-1 :background ,red-1bg)))))
+   `(org-todo ((t (:foreground ,red-1 :background ,red-1bg))))
+
+   ;; web-mode
+   `(web-mode-current-column-highlight-face ((t (:background ,gray-1bg :underline t))))
+   `(web-mode-current-element-highlight-face ((t (:background ,gray-1bg :underline t)))))
 
   (custom-theme-set-variables
    'twilight-anti-bright
